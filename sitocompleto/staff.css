@@ -1,0 +1,126 @@
+:root{
+    --color-green: #00bd4fe0; 
+    --color-magenta: #a00035dc;
+}
+
+
+#delicate,
+label,
+#elaborate{
+    display: flex;
+    align-items: center;
+}
+
+.operation h6{
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+
+#delicate,
+#elaborate{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.halfElaboration{
+    width: 48%;
+    border: 3px solid  var(--color-green);
+    font-size: 0.65em;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+label{
+    padding: 3px;
+    justify-content: space-between;
+    margin: 5px 0 5px 0;
+}
+
+.result{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', Arial;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.result table{
+    padding: 5px;
+    color: lightgray;
+    border-top: 3px solid var(--color-magenta);
+    border-bottom: 3px solid var(--color-magenta);
+    border-radius: 20px;
+    margin: 20px;
+    font-size: 0.6em;
+}
+
+.result table tr,
+.result table td{
+    border: 1px solid rgba(211, 211, 211, 0.219);
+}
+
+.result h6,
+.result h3,
+.result p,
+.result img{
+    margin: 5px;
+}
+
+input{
+    margin-left: 15px;
+    border: 2.3px solid lightgray;;
+    border-radius: 5px;
+    background-color: rgba(211, 211, 211, 0.527);
+    z-index: 1;
+}
+
+input:focus{
+    background-color: lightgray;
+}
+
+input:hover{
+    background-color: rgba(144, 238, 144, 0.356);
+}
+
+input[type=submit]{
+    border: none;    
+    color: black;       
+    font-weight: bold;  
+    height: 25px;    
+    width: 80px;    
+    cursor: pointer;   
+}
+
+
+
+.operation p{
+    margin: 0px;
+}
+
+h3,
+.operation{
+    font-family: 'Lato', Arial;
+}
+
+.operation{
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 5.5px;
+    margin-right: 5.5px;
+    padding: 8px;
+    border: 3px solid transparent;
+    border-radius: 20px;
+    transition: all 1s;
+}
+
+.operation:hover{
+    background-color: #68009c25;
+    border-top: 3px solid  var(--color-green);
+    border-radius: 20px;
+    border-bottom: 3px solid  var(--color-green);
+}

@@ -1,0 +1,27 @@
+
+:root{
+    --color-green: #00bd4fe0;
+    --color-violet: #660099a9;
+    --color-magenta: rgba(160, 0, 53, 0.863);
+}
+.otherdiv{
+    border-top:  3px solid var(--color-magenta);
+    border-bottom: 3px solid var(--color-magenta);
+    border-radius: 20px;
+    width: 47%;
+    margin-left: 10px;
+}
+
+.otherdiv h4,
+.otherdiv h6{
+    margin: 1px;
+}
+
+header{
+    background-image: url("images/contattaci.gif");
+}
+
+
+header h1{
+    color: rgba(0, 0, 0, 0.904);
+}
